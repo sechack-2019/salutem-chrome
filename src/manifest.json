@@ -1,0 +1,26 @@
+{
+    "name": "salutem-chrome",
+    "version": "1.0.0",
+    "icons": {
+        "32": "icon_32.png"
+    },
+    "manifest_version": 2,
+    "description": "sample",
+    "content_scripts": [{
+      "matches": ["https://www.amazon.co.jp/*"],
+      "js": ["content.js" ],
+      "css": ["mystyle.css"]
+    }],
+    "background": {
+        "scripts": ["background.js"]
+   },
+    "browser_action": {
+        "default_icon": "icon_32.png"
+    },
+    "permissions": [
+		"tabs",
+		"background",
+		"http://*/*",
+		"https://*/*"
+	]
+  }
