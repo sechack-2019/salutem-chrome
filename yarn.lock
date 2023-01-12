@@ -3551,7 +3551,7 @@ gulp-less@3.x.x:
 gulp-livereload@3.x.x:
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/gulp-livereload/-/gulp-livereload-3.8.1.tgz#00f744b2d749d3e9e3746589c8a44acac779b50f"
-  integrity sha1-APdEstdJ0+njdGWJyKRKysd5tQ8=
+  integrity sha512-qUDYRcB6wYFhRtO4sMKB9opdAgSxraGu9aP4hHCm7fl+EQw903ok+wWmAoN+YMU5HU4qALrOzGz/YTj8OXn18A==
   dependencies:
     chalk "^0.5.1"
     debug "^2.1.0"
